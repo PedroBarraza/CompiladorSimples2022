@@ -1,0 +1,30 @@
+programa encadeamento
+
+inteiro aux prox[8] info[8]
+
+inicio
+   prox[0] <- 4
+   prox[1] <- 3
+   prox[2] <- 7
+   prox[3] <- 0
+   prox[4] <- 5
+   prox[5] <- 2
+   prox[6] <- 100
+   prox[7] <- 6
+
+   info[0] <- 30
+   info[1] <- 10
+   info[2] <- 60
+   info[3] <- 20
+   info[4] <- 40
+   info[5] <- 50
+   info[6] <- 80
+   info[7] <- 70
+
+   prox[4] <- prox[prox[4]] // excluindo 50 do encadeamento
+   aux <- 1
+   enquanto nao (aux = 100) faca
+       escreva info[aux]
+       aux <- prox[aux]
+   fimenquanto
+fimprograma

@@ -1,0 +1,18 @@
+programa vetor1
+   inteiro vetor[0]
+   inteiro a
+inicio
+   vetor[0] <- 10
+   escreva vetor[0]
+   escreva a
+fimprograma
+
+/*
+em C
+
+int v[10];
+
+v[1000] = 10;
+
+gets(s);
+*/

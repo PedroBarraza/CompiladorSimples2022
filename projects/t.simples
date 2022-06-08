@@ -1,0 +1,10 @@
+programa teste1
+    inteiro b[3] a[3] c
+inicio
+    leia b[2]
+    leia c
+    leia b[c]
+    escreva b[2]
+    escreva c
+    escreva b[c]
+fimprograma

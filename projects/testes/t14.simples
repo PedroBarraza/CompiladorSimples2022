@@ -1,0 +1,9 @@
+programa procvetor
+
+   inteiro a[10] b[5]
+   inteiro c d
+
+inicio
+  c <- 10
+fimprograma
+
